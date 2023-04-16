@@ -1,0 +1,1 @@
+const fechaInput=document.getElementById("fecha_cita");fechaInput.addEventListener("input",(function(t){const e=t.target.value;window.location="?fecha="+e}));
