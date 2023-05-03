@@ -1,0 +1,12 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.paginacion {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+
+    .boton.inactive {
+        visibility: hidden;
+    }
+}

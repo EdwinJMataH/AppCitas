@@ -1,0 +1,20 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.acciones {
+    width: 60%;
+    margin: 0 auto;
+
+    a, .boton {
+        width: 60%;
+        display: block;
+        text-decoration: none;
+        color: v.$blanco;
+        font-size: 1.5rem;
+        transition: .3s;
+    }
+
+    a:nth-child(2) {
+        margin-top: 2rem;
+    }
+}

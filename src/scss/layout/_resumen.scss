@@ -1,0 +1,33 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.resumen-servicio {
+    // padding: .2rem;
+    border: .3rem solid v.$gris;
+    width: 100%;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+
+    
+    .nombre-servicio {
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: v.$negro;
+    }
+    .precio-servicio{
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        color: v.$rojo;
+    }
+
+    span {
+        color: v.$rojo;
+    }
+    p {
+        margin-top: .5rem;
+        margin: .5rem;
+    }
+
+}

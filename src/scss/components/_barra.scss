@@ -1,0 +1,31 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a {
+        background-color: v.$negro;
+        padding: 1rem;
+        color: v.$blanco;
+
+        &:hover {
+            color: v.$blanco;
+        }
+    }
+}
+
+.opciones-admin {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.opcion-barra {
+    background-color: v.$rojo;
+    color: v.$blanco;
+    padding: 1rem;
+}
